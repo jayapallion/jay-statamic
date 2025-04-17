@@ -1,6 +1,5 @@
 ---
 id: 734e344c-b29c-4b70-bb38-f54de8b25987
-published: false
 blueprint: comparision
 title: 'ActiveCampaign vs SendX - jayapal test'
 author: 5a99e6b0-407b-43f3-9976-ed242aa2448e
