@@ -2,11 +2,11 @@
 id: 5e0ba0ed-ab48-4910-8142-0d2b8ed77c7a
 published: false
 blueprint: comparision
-title: 'Brevo vs SendX (Duplicated)'
+title: 'Brevo vs SendX- jay test'
 author: 5a99e6b0-407b-43f3-9976-ed242aa2448e
 template: home
 updated_by: 5a99e6b0-407b-43f3-9976-ed242aa2448e
-updated_at: 1744290990
+updated_at: 1744867720
 sections:
   -
     id: c73k5d9qp
@@ -206,18 +206,23 @@ sections:
     faq_title: FAQs
     faqs:
       -
+        id: PMuojDMc
         faq_ques: 'Is there a free trial available for Brevo and SendX?'
         faq_ans: 'Yes, both Brevo and SendX offer free trials to help you explore their features before committing.'
       -
+        id: 6ZMXUkRX
         faq_ques: 'Which platform is better for small businesses?'
         faq_ans: 'Brevo is often preferred for small businesses due to its simplicity and cost-effectiveness.'
       -
+        id: DQ185yyo
         faq_ques: 'Can I switch from Brevo to SendX easily?'
         faq_ans: 'Yes, both platforms allow you to export your contacts and campaigns, making it easy to switch.'
       -
+        id: 6zL3ClS8
         faq_ques: 'What kind of customer support do they offer?'
         faq_ans: 'Brevo offers email and chat support, while SendX provides 24/7 live chat and extensive documentation.'
       -
+        id: 6km4am8p
         faq_ques: 'Which platform offers better automation features?'
         faq_ans: 'SendX provides more advanced automation capabilities, including detailed segmentation and conditional logic.'
   -
