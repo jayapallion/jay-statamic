@@ -1,6 +1,5 @@
 ---
 id: 5e0ba0ed-ab48-4910-8142-0d2b8ed77c7a
-published: false
 blueprint: comparision
 title: 'Brevo vs SendX- jay test'
 author: 5a99e6b0-407b-43f3-9976-ed242aa2448e
