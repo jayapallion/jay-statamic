@@ -5,13 +5,13 @@ title: 'Brevo vs SendX- jay test'
 author: 5a99e6b0-407b-43f3-9976-ed242aa2448e
 template: home
 updated_by: 5a99e6b0-407b-43f3-9976-ed242aa2448e
-updated_at: 1744867720
+updated_at: 1744868378
 sections:
   -
     id: c73k5d9qp
     type: comparision_hero
     enabled: true
-    comparision_hero_tag: 'Brevo vs SendX'
+    comparision_hero_tag: 'Brevo vs SendX jay test'
     comparision_hero_title: 'Choose the Right Email Marketing Tool'
     comparision_hero_subtitle: 'Struggling to decide between Brevo and SendX? Discover the key differences and find the perfect fit for your marketing needs.'
     comparision_hero_grid:
