@@ -1,0 +1,25 @@
+title: 'Brand Settings'
+data:
+  site_name: SendX
+  tagline: 'Email Marketing & Automation Made Easy'
+  logo:
+    - sendx-logo.png
+  logo_alt: SendX
+  primary_color: bg-blue-900
+  secondary_color: bg-gray-100
+  primary_font: 'Inter, sans-serif'
+  heading_font: 'Inter, sans-serif'
+  contact_email: hello@sendx.io
+  contact_phone: +1-800-SENDX
+  address: '123 Marketing Avenue, Email City, 94105'
+  social_links:
+    facebook: 'https://facebook.com/sendx'
+    instagram: 'https://instagram.com/sendx'
+    twitter: 'https://twitter.com/sendx'
+    linkedin: 'https://linkedin.com/company/sendx'
+    github: 'https://github.com/sendx'
+  copyright_text: '© 2025 SendX. All rights reserved.'
+  section_title: 'text-black font-semibold text-2xl sm:text-4xl'
+  section_subtitle: 'mt-2 text-xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl'
+  section_content_title: 'text-gray-900 font-semibold'
+  section_content: text-gray-600

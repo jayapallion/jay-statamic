@@ -1,0 +1,42 @@
+<div class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+        {{ comparision_table_title }}
+      </h2>
+      <div class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+        <p>{{ comparision_table_subtitle }}</p>
+      </div>
+  
+      <div class="mt-12 overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="">
+              <th class="py-4 px-6 text-gray-500 text-sm font-semibold">
+                <p>{{ comparision_table_title0 }}</p>
+              </th>
+              <th class="py-4 px-6">
+                <p>{{ comparision_table_title1 }}</p>
+              </th>
+              <th class="py-4 px-6">
+                <p>{{ comparision_table_title2 }}</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            {{ comparision_table_pricing }}
+              <tr>
+                <td class="py-4 px-6 font-medium text-gray-900">{{ pricing_title }}</td>
+                <td class="py-4 px-6 text-gray-700">{{ pricing_comp1 }}</td>
+                <td class="py-4 px-6 text-gray-700">{{ pricing_comp2 }}</td>
+              </tr>
+            {{ /comparision_table_pricing }}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+        <p>{{ comparision_table_footer_text }}</p>
+      </div>
+    </div>
+  </div>
+  

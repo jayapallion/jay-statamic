@@ -1,0 +1,69 @@
+title: Navigation
+tabs:
+  main:
+    display: 'Main Navigation'
+    sections:
+      -
+        fields:
+          -
+            handle: main_nav
+            field:
+              type: grid
+              display: 'Main Navigation'
+              instructions: 'The main navigation items in the header'
+              add_row: 'Add Navigation Item'
+              fields:
+                -
+                  import: navigation
+  footer:
+    display: 'Footer Navigation'
+    sections:
+      -
+        fields:
+          -
+            handle: footer_nav
+            field:
+              type: grid
+              display: 'Footer Navigation'
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    type: text
+                    display: 'Section Title'
+                -
+                  handle: section_links
+                  field:
+                    type: grid
+                    display: 'Section Links'
+                    fields:
+                      -
+                        handle: link_text
+                        field:
+                          type: text
+                          display: 'Link Text'
+                      -
+                        handle: link_url
+                        field:
+                          type: link
+                          display: 'Link Url'
+  cta:
+    display: 'Call to Action Buttons'
+    sections:
+      -
+        fields:
+          -
+            handle: cta
+            field:
+              type: section
+              display: 'Call to Action Buttons'
+          -
+            handle: cta.primary
+            field:
+              type: section
+              display: 'Primary CTA'
+          -
+            handle: cta.secondary
+            field:
+              type: section
+              display: 'Secondary CTA'

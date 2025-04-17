@@ -1,0 +1,145 @@
+title: 'Brand Settings'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: site_name
+            field:
+              type: text
+              validate:
+                - required
+              display: 'Site Name'
+              instructions: 'The name of your website'
+          -
+            handle: tagline
+            field:
+              type: text
+              display: Tagline
+              instructions: 'A short slogan or tagline for your site'
+          -
+            handle: logo
+            field:
+              container: assets
+              type: assets
+              display: Logo
+          -
+            handle: logo_alt
+            field:
+              type: text
+              display: 'Logo Alt Text'
+              instructions: 'Alternative text for the logo for accessibility'
+          -
+            handle: favicon
+            field:
+              type: assets
+              container: assets
+              max_files: 1
+              display: Favicon
+              instructions: 'Upload your favicon (typically .ico format)'
+  colors:
+    display: Colors
+    sections:
+      -
+        fields:
+          -
+            handle: primary_color
+            field:
+              type: text
+              display: 'Primary Color'
+          -
+            handle: secondary_color
+            field:
+              type: text
+              display: 'Secondary Color'
+  typography:
+    display: Typography
+    sections:
+      -
+        fields:
+          -
+            handle: primary_font
+            field:
+              type: text
+              display: 'Primary Font'
+              default: 'Inter, sans-serif'
+              instructions: 'Main font for body text'
+          -
+            handle: heading_font
+            field:
+              type: text
+              display: 'Heading Font'
+              default: 'Inter, sans-serif'
+              instructions: 'Font for headings'
+  contact:
+    display: 'Contact Information'
+    sections:
+      -
+        fields:
+          -
+            handle: contact_email
+            field:
+              type: text
+              display: 'Contact Email'
+              instructions: 'Primary contact email address'
+          -
+            handle: contact_phone
+            field:
+              type: text
+              display: 'Contact Phone'
+              instructions: 'Primary contact phone number'
+          -
+            handle: address
+            field:
+              type: textarea
+              display: Address
+              instructions: 'Physical address'
+  social:
+    display: 'Social Media'
+    sections:
+      -
+        fields:
+          -
+            handle: social_links
+            field:
+              type: section
+              import: fieldsets/social_links
+  legal:
+    display: Legal
+    sections:
+      -
+        fields:
+          -
+            handle: copyright_text
+            field:
+              type: text
+              display: 'Copyright Text'
+              instructions: 'Copyright text for footer'
+  tailwind_class:
+    display: 'Tailwind class'
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: section_title
+            field:
+              type: text
+              display: 'Section Title'
+          -
+            handle: section_subtitle
+            field:
+              type: text
+              display: 'Section Subtitle'
+          -
+            handle: section_content_title
+            field:
+              type: text
+              display: 'Section Content Title'
+          -
+            handle: section_content
+            field:
+              type: text
+              display: 'Section Content'

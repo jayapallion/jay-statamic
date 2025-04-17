@@ -1,0 +1,28 @@
+title: Hero
+fields:
+  -
+    handle: hero_title
+    field:
+      type: text
+      display: 'Hero Title'
+  -
+    handle: hero_subtitle
+    field:
+      type: text
+      display: 'Hero subtitle'
+  -
+    handle: hero_image
+    field:
+      container: assets
+      type: assets
+      display: 'Hero Image'
+  -
+    handle: button_text
+    field:
+      type: text
+      display: 'Button Text'
+  -
+    handle: button_link
+    field:
+      type: link
+      display: 'Button Link'

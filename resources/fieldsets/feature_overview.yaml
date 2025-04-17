@@ -1,0 +1,34 @@
+title: 'Feature Overview'
+fields:
+  -
+    handle: features_title
+    field:
+      type: text
+      display: 'Features Title'
+  -
+    handle: feature
+    field:
+      type: grid
+      display: Feature
+      fields:
+        -
+          handle: feature_title
+          field:
+            type: text
+            display: 'Feature title'
+        -
+          handle: feature_subtitle
+          field:
+            type: text
+            display: 'Feature subtitle'
+        -
+          handle: feature_link
+          field:
+            type: link
+            display: 'Feature link'
+        -
+          handle: feature_image
+          field:
+            container: assets
+            type: assets
+            display: 'Feature image'

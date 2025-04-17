@@ -1,0 +1,34 @@
+title: 'Logo Cloud'
+fields:
+  -
+    handle: logo_cloud_title
+    field:
+      type: text
+      display: 'Logo Cloud Title'
+  -
+    handle: logo_cloud_subtitle
+    field:
+      type: text
+      display: 'Logo Cloud Subtitle'
+  -
+    handle: logo_cloud_button_text
+    field:
+      type: text
+      display: 'Logo Cloud Button Text'
+  -
+    handle: logo_cloud_button_link
+    field:
+      type: link
+      display: 'Logo Cloud Button Link'
+  -
+    handle: logos
+    field:
+      type: grid
+      display: Logos
+      fields:
+        -
+          handle: logo_icon
+          field:
+            container: assets
+            type: assets
+            display: 'Logo Icon'

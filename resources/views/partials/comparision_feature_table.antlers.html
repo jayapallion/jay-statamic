@@ -1,0 +1,69 @@
+<div class="w-full">
+    <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+      <div class="mx-auto max-w-4xl">
+        <h2 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{{ comparision_features_title }}</h2>
+        <dl class="mt-16 divide-y divide-gray-900">
+
+            {{ comparision_feature_table }}
+                <div class="py-6 first:pt-0 last:pb-0">
+                    <dt>
+                    <!-- Expand/collapse question button -->
+                    <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
+                        <span class="text-xl font-semibold mb-3">
+                            {{  comparision_features_ques }}
+                        </span>
+                        <span class="ml-6 flex h-7 items-center">
+                        <!--
+                            Icon when question is collapsed.
+        
+                            Item expanded: "hidden", Item collapsed: ""
+                        -->
+                        <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                        </svg>
+                        <!--
+                            Icon when question is expanded.
+        
+                            Item expanded: "", Item collapsed: "hidden"
+                        -->
+                        <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                        </svg>
+                        </span>
+                    </button>
+                    </dt>
+                    <dd class="mt-2 pr-12" id="faq-0">
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left border-collapse">
+                              <thead>
+                                <tr class="text-gray-900 bg-gray-50">
+                                  <th class="py-4 px-6">
+                                    <p>{{ comparision_features_ans_title }}</p>
+                                  </th>
+                                  <th class="py-4 px-6">
+                                    <p>{{ comparision_features_ans_title1 }}</p>
+                                  </th>
+                                  <th class="py-4 px-6">
+                                    <p>{{ comparision_features_ans_title2 }}</p>
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody class="divide-y divide-gray-200">
+                                {{ comparision_features_ans }}
+                                  <tr>
+                                    <td class="py-4 px-6 font-medium text-gray-900">{{ comparision_features_ans_comp_title }}</td>
+                                    <td class="py-4 px-6 text-gray-700">{{ comparision_features_ans_comp1 }}</td>
+                                    <td class="py-4 px-6 text-gray-700">{{ comparision_features_ans_comp2 }}</td>
+                                  </tr>
+                                {{ /comparision_features_ans }}
+                              </tbody>
+                            </table>
+                        </div>
+                    </dd>
+                </div>
+            {{ /comparision_feature_table }}
+        </dl>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,37 @@
+title: SEO
+fields:
+  -
+    handle: seo_title
+    field:
+      type: text
+      display: SEO Title
+      instructions: Custom title for search engines. Defaults to the page title if not set.
+      character_limit: 60
+  -
+    handle: seo_description
+    field:
+      type: textarea
+      display: Meta Description
+      instructions: Brief description of the page for search engines.
+      character_limit: 160
+  -
+    handle: seo_image
+    field:
+      type: assets
+      container: assets
+      max_files: 1
+      display: Social Share Image
+      instructions: Image used when sharing on social media (Facebook, Twitter, etc.)
+  -
+    handle: canonical_url
+    field:
+      type: text
+      display: Canonical URL
+      instructions: Specify a canonical URL if this page has duplicate content elsewhere.
+  -
+    handle: no_index
+    field:
+      type: toggle
+      display: No Index
+      instructions: Prevent search engines from indexing this page
+      default: false

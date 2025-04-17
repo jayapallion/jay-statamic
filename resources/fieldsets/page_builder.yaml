@@ -1,0 +1,61 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: sections
+    field:
+      type: replicator
+      display: Sections
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            hero:
+              display: Hero
+              fields:
+                -
+                  import: hero
+            feature_overview:
+              display: 'Feature Overview'
+              fields:
+                -
+                  import: feature_overview
+            feature_detail:
+              display: 'Feature Detail'
+              fields:
+                -
+                  import: feature_detail
+            feature_blogs:
+              display: 'Feature Blogs'
+              fields:
+                -
+                  import: feature_blogs
+            logo_cloud:
+              display: 'Logo Cloud'
+              fields:
+                -
+                  import: logo_cloud
+            faqs:
+              display: FAQs
+              fields:
+                -
+                  import: faq
+            comparision_hero:
+              display: 'Comparision Hero'
+              fields:
+                -
+                  import: comparision_hero
+            comparision_table:
+              display: 'Comparision Table'
+              fields:
+                -
+                  import: comarision_table
+            comparision_pricing:
+              display: 'Comparision Pricing'
+              fields:
+                -
+                  import: comparision_pricing
+            comparision_feature_table:
+              display: comparision_feature_table
+              fields:
+                -
+                  import: comparision_feature_table

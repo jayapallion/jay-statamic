@@ -1,0 +1,23 @@
+title: FAQ
+fields:
+  -
+    handle: faq_title
+    field:
+      type: text
+      display: 'FAQ Title'
+  -
+    handle: faqs
+    field:
+      type: grid
+      display: FAQs
+      fields:
+        -
+          handle: faq_ques
+          field:
+            type: text
+            display: 'FAQ Ques'
+        -
+          handle: faq_ans
+          field:
+            type: text
+            display: 'FAQ Ans'

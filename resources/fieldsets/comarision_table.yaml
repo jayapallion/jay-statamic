@@ -1,0 +1,45 @@
+title: 'Comparision Table'
+fields:
+  -
+    handle: comparision_table_title
+    field:
+      type: text
+      display: 'Comparision Table Title'
+  -
+    handle: comparision_table_subtitle
+    field:
+      type: text
+      display: 'Comparision Table Subtitle'
+  -
+    handle: comparision_table_logo1
+    field:
+      container: assets
+      type: assets
+      display: 'Comparision Table Logo1'
+  -
+    handle: comparision_table_logo2
+    field:
+      container: assets
+      type: assets
+      display: 'Comparision Table Logo2'
+  -
+    handle: comparision_table_features
+    field:
+      type: grid
+      display: 'Comparision Table Features'
+      fields:
+        -
+          handle: features_title
+          field:
+            type: text
+            display: 'Features Title'
+        -
+          handle: features_comp1
+          field:
+            type: text
+            display: 'Features Comp1'
+        -
+          handle: features_comp2
+          field:
+            type: text
+            display: 'Features Comp2'

@@ -1,0 +1,34 @@
+title: 'Feature Blogs'
+fields:
+  -
+    handle: feature_blogs_title
+    field:
+      type: text
+      display: 'Feature Blogs Title'
+  -
+    handle: feature_blogs_subtitle
+    field:
+      type: text
+      display: 'Feature Blogs Subtitle'
+  -
+    handle: feature_blog_card
+    field:
+      type: grid
+      display: 'Feature Blog Card'
+      fields:
+        -
+          handle: feature_blog_image
+          field:
+            container: assets
+            type: assets
+            display: 'Feature Blog Image'
+        -
+          handle: feature_blog_title
+          field:
+            type: text
+            display: 'Feature Blog Title'
+        -
+          handle: feature_blog_content
+          field:
+            type: text
+            display: 'Feature Blog Content'

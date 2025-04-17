@@ -1,0 +1,36 @@
+<div class="bg-transparent py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+        {{ comparision_table_title }}
+      </h2>
+      <div class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+        <p>{{ comparision_table_subtitle }}</p>
+      </div>
+  
+      <div class="mt-12 overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="">
+              <th class="py-4 px-6 text-gray-500 text-sm font-semibold"></th>
+              <th class="py-4 px-6 text-center">
+                <img src="{{ comparision_table_logo1[0] }}" alt="First Logo" class="h-16 mx-auto" />
+              </th>
+              <th class="py-4 px-6 text-center">
+                <img src="{{ comparision_table_logo2[0] }}" alt="Second Logo" class="h-16 mx-auto" />
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            {{ comparision_table_features }}
+              <tr>
+                <td class="py-4 px-6 font-medium text-gray-900">{{ features_title }}</td>
+                <td class="py-4 px-6 text-gray-700">{{ features_comp1 }}</td>
+                <td class="py-4 px-6 text-gray-700">{{ features_comp2 }}</td>
+              </tr>
+            {{ /comparision_table_features }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

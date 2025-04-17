@@ -1,0 +1,265 @@
+title: Navigation
+data:
+  main_nav:
+    -
+      id: CSpcxueR
+      label: Features
+      url: /features
+      children:
+        -
+          id: 46F8723h
+          label: 'Email Automation'
+          url: /features/email-automation
+        -
+          id: Zzmn8ndm
+          label: 'Campaign Analytics'
+          url: /features/campaign-analytics
+        -
+          id: 9eVtAnRM
+          label: Segmentation
+          url: /features/segmentation
+        -
+          id: OcQl8MRH
+          label: Deliverability
+          url: /features/deliverability
+    -
+      id: TkiLcXwa
+      label: 'Use Cases'
+      url: /use-cases
+      children:
+        -
+          id: DH9OADWc
+          label: E-commerce
+          url: /use-cases/ecommerce
+        -
+          id: GrsY8IH7
+          label: SaaS
+          url: /use-cases/saas
+        -
+          id: 2XGzU042
+          label: Agencies
+          url: /use-cases/agencies
+    -
+      id: x1OnqdlS
+      label: Industries
+      url: /industries
+      children:
+        -
+          id: aK5ls4jR
+          label: Retail
+          url: /industries/retail
+        -
+          id: OA3Kt5yd
+          label: Technology
+          url: /industries/technology
+        -
+          id: 74hxCELa
+          label: Healthcare
+          url: /industries/healthcare
+    -
+      id: vzPk9FHv
+      label: Solutions
+      url: /solutions
+    -
+      id: MMD5taCV
+      label: Pricing
+      url: /pricing
+  footer_nav:
+    -
+      id: m9dtqcoh
+      section_title: Features
+      section_links:
+        -
+          id: m9dtqla1
+          link_text: 'Email Marketing'
+          link_url: 'entry::ee129b99-9603-4d43-8711-fd8b7b10726c'
+        -
+          id: m9dtqlb2
+          link_text: 'Customer Engagement'
+          link_url: 'entry::c73k9d9q7'
+        -
+          id: m9dtqlc3
+          link_text: 'AMP Emails'
+          link_url: 'entry::c73k5d9qp'
+        -
+          id: m9dtqld4
+          link_text: Surveys
+          link_url: 'entry::c73k5d9qp-9603-4d43-8711-fd8b7b107268'
+        -
+          id: m9dtqle5
+          link_text: 'Shopify Email Marketing'
+          link_url: 'entry::c73k5d9q9'
+        -
+          id: m9dtqlf6
+          link_text: 'Email Deliverability'
+          link_url: 'entry::c73k5d9q5'
+        -
+          id: m9dtqlg7
+          link_text: 'Email Template Builder'
+          link_url: 'entry::c73k5d9q6'
+        -
+          id: m9dtqlh8
+          link_text: 'Send Transactional Email'
+          link_url: 'entry::c73k5d9q8'
+        -
+          id: m9dtqli9
+          link_text: 'Bulk Email Service'
+          link_url: 'entry::c73k5d9qg'
+        -
+          id: m9dtqlj0
+          link_text: 'Email Automation'
+          link_url: 'entry::c73k5d9q4'
+        -
+          id: m9dtqlk1
+          link_text: 'Newsletter Software'
+          link_url: 'entry::c73k5d9q7'
+        -
+          id: m9dtqll2
+          link_text: 'Template Suggestion'
+          link_url: 'entry::c73k5d92'
+    -
+      id: m9dtqrm3
+      section_title: Resources
+      section_links:
+        -
+          id: m9dtqrm4
+          link_text: 'AMP Email Guide'
+        -
+          id: m9dtqrm5
+          link_text: 'Email Marketing 101'
+        -
+          id: m9dtqrm6
+          link_text: 'Email Templates'
+        -
+          id: m9dtqrm7
+          link_text: 'Email Subject Lines'
+        -
+          id: m9dtqrm8
+          link_text: 'Email Checklist'
+        -
+          id: m9dtqrm9
+          link_text: 'Email Stash'
+        -
+          id: m9dtqr10
+          link_text: 'Email Marketing Course'
+        -
+          id: m9dtqr11
+          link_text: 'AI Subject Line Generator'
+    -
+      id: m9dtqrn1
+      section_title: 'How We Compare'
+      section_links:
+        -
+          id: m9dtqrn2
+          link_text: 'Mailchimp vs SendX'
+          link_url: 'entry::d00b98d0-870d-4d0f-a41f-87f2fbdacc8c'
+        -
+          id: m9dtqrn3
+          link_text: 'ActiveCampaign vs SendX'
+          link_url: 'entry::a1b2c3d4-e5f6-7g8h-9i0j-k12m3n4o5p6'
+        -
+          id: m9dtqrn4
+          link_text: 'Constant Contact vs SendX'
+          link_url: 'entry::3f9a4d3e-2c5b-4c6b-9b1b-8e8f3c5b7e8b'
+        -
+          id: m9dtqrn5
+          link_text: 'Klaviyo vs SendX'
+          link_url: 'entry::a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p8'
+        -
+          id: m9dtqrn6
+          link_text: 'Mailerlite vs SendX'
+          link_url: 'entry::a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5pk'
+        -
+          id: m9dtqrn7
+          link_text: 'Brevo vs SendX'
+          link_url: 'entry::1a2b3c4d-5678-90ab-cdef-1234567890aj'
+        -
+          id: m9dtqrn8
+          link_text: 'Omnisend vs SendX'
+          link_url: 'entry::e12a34b5-6789-4cde-abc1-23456789def0'
+        -
+          id: m9dtqrn9
+          link_text: 'Zoho Campaigns vs SendX'
+          link_url: 'entry::1f2e3d4c-5678-9abc-def0-123456789abc'
+        -
+          id: m9dtqrm1
+          link_text: 'Moosend vs SendX'
+          link_url: 'entry::5c3f9e5e-8e8f-4b1e-bb5b-6a5e4f7c5b6a'
+        -
+          id: m9dtqrm2
+          link_text: 'SendPulse vs SendX'
+          link_url: 'entry::1a2b3c4d-5678-90ab-cdef-1234567890ac'
+        -
+          id: m9dtqrm3
+          link_text: 'Drip vs SendX'
+          link_url: 'entry::1f2a3b4c-5678-90ab-cdef-1234567890ab'
+        -
+          id: m9dtqrm4
+          link_text: 'GetResponse vs SendX'
+          link_url: 'entry::1c7e7f8a-3c2f-4a7c-bc5f-8c5e1b5b5c8d'
+        -
+          id: m9dtqrm5
+          link_text: 'AWeber vs SendX'
+          link_url: 'entry::a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6'
+        -
+          id: m9dtqrm6
+          link_text: 'Campaign Monitor vs SendX'
+          link_url: 'entry::7f3b9c8e-4e3b-4f8a-9c3b-3d1b5f1a7c2d'
+        -
+          id: m9dtqrm7
+          link_text: 'Mailgun vs SendX'
+          link_url: 'entry::b12a98d0-870d-4d0f-a41f-87f2fbdacc8c'
+        -
+          id: m9dtqrm8
+          link_text: 'ConvertKit vs SendX'
+          link_url: 'entry::e12f98d0-870d-4d0f-a41f-87f2fbdacc8c'
+    -
+      id: m9dtqro1
+      section_title: Company
+      section_links:
+        -
+          id: m9dtqro2
+          link_text: Home
+        -
+          id: m9dtqro3
+          link_text: Pricing
+        -
+          id: m9dtqro4
+          link_text: Help
+        -
+          id: m9dtqro5
+          link_text: Features
+        -
+          id: m9dtqro6
+          link_text: 'About Us'
+        -
+          id: m9dtqro7
+          link_text: 'Marketing Partner'
+        -
+          id: m9dtqro8
+          link_text: 'Affiliate Program'
+        -
+          id: m9dtqro9
+          link_text: 'GDPR Compliance'
+        -
+          id: m9dtqrv1
+          link_text: 'Book a Demo'
+        -
+          id: m9dtqrv2
+          link_text: Security
+        -
+          id: m9dtqrv3
+          link_text: 'Contact Us'
+  cta:
+    primary:
+      label: 'Get Started'
+      url: /signup
+    secondary:
+      label: 'Book a Demo'
+      url: /demo
+  cta.primary:
+    label: 'Get Started'
+    url: /signup
+  cta.secondary:
+    label: 'Book a Demo'
+    url: /demo

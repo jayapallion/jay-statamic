@@ -1,0 +1,44 @@
+title: 'Comparision Hero'
+fields:
+  -
+    handle: comparision_hero_tag
+    field:
+      type: text
+      display: 'Comparision Hero Tag'
+  -
+    handle: comparision_hero_title
+    field:
+      type: text
+      display: 'Comparision Hero Title'
+  -
+    handle: comparision_hero_subtitle
+    field:
+      type: text
+      display: 'Comparision Hero SubTitle'
+  -
+    handle: comparision_hero_grid
+    field:
+      type: grid
+      display: 'Comparision Hero Grid'
+      fields:
+        -
+          handle: comparision_hero_grid_image
+          field:
+            container: assets
+            type: assets
+            display: 'Comparision Hero Grid Image'
+        -
+          handle: comparision_hero_grid_title
+          field:
+            type: text
+            display: 'Comparision Hero Grid Title'
+  -
+    handle: comparision_hero_button_text
+    field:
+      type: text
+      display: 'Comparision Hero Button Text'
+  -
+    handle: comparision_hero_button_link
+    field:
+      type: text
+      display: 'Comparision Hero Button Link'

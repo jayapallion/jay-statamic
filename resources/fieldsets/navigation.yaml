@@ -1,0 +1,35 @@
+title: Navigation
+fields:
+  -
+    handle: label
+    field:
+      type: text
+      validate:
+        - required
+      display: Label
+      instructions: 'The text to display for this navigation item'
+  -
+    handle: url
+    field:
+      type: text
+      validate:
+        - required
+      display: URL
+      instructions: 'The URL this navigation item should link to'
+  -
+    handle: children
+    field:
+      type: grid
+      display: 'Dropdown Menu Items'
+      instructions: 'Create dropdown menu items if needed (leave empty for a regular link)'
+      fields:
+        -
+          handle: label
+          field:
+            type: text
+            display: Label
+        -
+          handle: url
+          field:
+            type: text
+            display: URL

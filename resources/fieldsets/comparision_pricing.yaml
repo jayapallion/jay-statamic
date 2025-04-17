@@ -1,0 +1,53 @@
+title: 'Comparision Pricing'
+fields:
+  -
+    handle: comparision_table_title
+    field:
+      type: text
+      display: 'Comparision Table Title'
+  -
+    handle: comparision_table_subtitle
+    field:
+      type: text
+      display: 'Comparision Table Subtitle'
+  -
+    handle: comparision_table_title0
+    field:
+      type: text
+      display: 'Comparision Table Title0'
+  -
+    handle: comparision_table_title1
+    field:
+      type: text
+      display: 'Comparision Table Title1'
+  -
+    handle: comparision_table_title2
+    field:
+      type: text
+      display: 'Comparision Table Title2'
+  -
+    handle: comparision_table_pricing
+    field:
+      type: grid
+      display: 'Comparision Table Pricing'
+      fields:
+        -
+          handle: pricing_title
+          field:
+            type: text
+            display: 'Pricing Title'
+        -
+          handle: pricing_comp1
+          field:
+            type: text
+            display: 'Pricing Comp1'
+        -
+          handle: pricing_comp2
+          field:
+            type: text
+            display: 'Pricing Comp2'
+  -
+    handle: comparision_table_footer_text
+    field:
+      type: text
+      display: 'Comparision Table Footer Text'

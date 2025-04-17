@@ -1,0 +1,63 @@
+title: 'Feature Detail'
+fields:
+  -
+    handle: features_detail_title
+    field:
+      type: text
+      display: 'Features Detail Title'
+  -
+    handle: feature_detail
+    field:
+      type: grid
+      display: 'Feature Details'
+      instructions: 'Create feature details with image and bullet points'
+      add_row: 'Add Feature Detail'
+      fields:
+        -
+          handle: feature_title
+          field:
+            type: text
+            display: 'Feature Title'
+            instructions: 'The main title for this feature'
+            required: true
+            validate:
+              - required
+        -
+          handle: feature_image
+          field:
+            type: assets
+            display: 'Feature Image'
+            instructions: 'Image showcasing this feature (will be displayed on the right side)'
+            container: assets
+            max_files: 1
+            mode: grid
+            required: true
+            validate:
+              - required
+        -
+          handle: feature_section_detail
+          field:
+            type: grid
+            display: 'Feature Bullet Points'
+            instructions: 'Add bullet points with titles and descriptions'
+            add_row: 'Add Bullet Point'
+            reorderable: true
+            fields:
+              -
+                handle: feature_subtitle
+                field:
+                  type: text
+                  display: 'Point Title'
+                  instructions: 'The title for this bullet point'
+                  required: true
+                  validate:
+                    - required
+              -
+                handle: feature_subtitle_content
+                field:
+                  type: textarea
+                  display: 'Point Description'
+                  instructions: 'The description text for this bullet point'
+                  required: true
+                  validate:
+                    - required

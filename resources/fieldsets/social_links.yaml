@@ -1,0 +1,38 @@
+title: Social Links
+fields:
+  -
+    handle: facebook
+    field:
+      type: text
+      display: Facebook
+      instructions: Facebook profile or page URL
+  -
+    handle: instagram
+    field:
+      type: text
+      display: Instagram
+      instructions: Instagram profile URL
+  -
+    handle: twitter
+    field:
+      type: text
+      display: Twitter/X
+      instructions: Twitter/X profile URL
+  -
+    handle: linkedin
+    field:
+      type: text
+      display: LinkedIn
+      instructions: LinkedIn profile or company URL
+  -
+    handle: github
+    field:
+      type: text
+      display: GitHub
+      instructions: GitHub profile or organization URL
+  -
+    handle: youtube
+    field:
+      type: text
+      display: YouTube
+      instructions: YouTube channel URL

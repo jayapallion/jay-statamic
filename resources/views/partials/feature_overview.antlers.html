@@ -1,0 +1,18 @@
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 py-8">
+    {{ feature }}
+    <div class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 shadow-xs focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400 py-12">
+      <div class="shrink-0">
+        <img class="size-24 rounded-md" src="{{ feature_image[0] }}" alt="">
+      </div>
+      <div class="min-w-0 flex-1">
+        <a href="{{ feature_link }}" class="focus:outline-hidden">
+          <span class="absolute inset-0" aria-hidden="true"></span>
+          <p class="text-sm font-medium text-gray-900">{{ feature_title }}</p>
+          <p class="truncate text-sm text-gray-500">{{ feature_subtitle }}</p>
+        </a>
+      </div>
+    </div>
+    {{ /feature }}
+
+  </div>
+  

@@ -1,0 +1,36 @@
+<div class="bg-white py-24 sm:py-32 relative w-full">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        {{ comparision_hero_tag }}
+      </h1>
+      <h2 class="mt-4 text-2xl font-semibold text-gray-700">
+        {{ comparision_hero_title }}
+      </h2>
+      <p class="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
+        {{ comparision_hero_subtitle }}
+      </p>
+
+      <div class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-3 justify-items-center">
+        {{ comparision_hero_grid }}
+          <div class="flex items-center gap-2">
+            <img src="{{ comparision_hero_grid_image[0] }}" alt="Boost email conversions icon" class="h-8 w-8" />
+            <p class="text-gray-700 whitespace-nowrap">{{ comparision_hero_grid_title }}</p>
+          </div>
+        {{ /comparision_hero_grid }}
+      </div>
+
+      <div class="mt-10">
+        <a href="{{ comparision_hero_button_link }}">
+          <button id="hero_cta_btn" class="rounded-md bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            {{ comparision_hero_button_text }}
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Decorative Background Elements -->
+  <div class="absolute top-0 right-0 h-64 w-64 bg-gradient-to-br from-indigo-200 to-indigo-400 opacity-30 rounded-full blur-3xl"></div>
+  <div class="absolute top-0 left-0 h-64 w-64 bg-gradient-to-bl from-pink-200 to-pink-400 opacity-30 rounded-full blur-3xl"></div>
+</div>

@@ -1,0 +1,54 @@
+title: 'Comparision Feature Table'
+fields:
+  -
+    handle: comparision_features_title
+    field:
+      type: text
+      display: 'Comparision Features Title'
+  -
+    handle: comparision_feature_table
+    field:
+      type: grid
+      display: comparision_feature_table
+      fields:
+        -
+          handle: comparision_features_ques
+          field:
+            type: text
+            display: 'Comparision Features Ques'
+        -
+          handle: comparision_features_ans_title
+          field:
+            type: text
+            display: 'Comparision features Ans Title'
+        -
+          handle: comparision_features_ans_title1
+          field:
+            type: text
+            display: 'Comparision features Ans Title1'
+        -
+          handle: comparision_features_ans_title2
+          field:
+            type: text
+            display: 'Comparision features Ans Title2'
+        -
+          handle: comparision_features_ans
+          field:
+            type: grid
+            display: 'Comparision features Ans'
+            fields:
+              -
+                handle: comparision_features_ans_comp_title
+                field:
+                  type: text
+                  display: 'Comparision features Ans Comp Title'
+              -
+                handle: comparision_features_ans_comp1
+                field:
+                  type: text
+                  display: 'Comparision features Ans Comp1'
+              -
+                handle: comparision_features_ans_comp2
+                field:
+                  type: text
+                  display: 'Comparision features Ans Comp2'

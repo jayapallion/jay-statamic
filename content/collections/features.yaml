@@ -1,0 +1,6 @@
+title: Features
+revisions: false
+route: 'features/{slug}'
+date_behavior:
+  past: public
+  future: private
